@@ -1,0 +1,23 @@
+/*font-family untuk mengatur nama font*/
+/*font-size untuk mengatur ukuran huruf*/
+/*font-weight untuk mengatur ketebalan*/
+/*font-variant untuk mengatur font huruf dengan varian sendiri*/
+/*font-style untul mengatur miring*/
+h1{
+	font-family: arial, verdana, sans-serif; /*bisa di ubah dengan berbagai macam nama font dan lebih dari 1 font*/
+	font-size: 100px; /*px bisa di ubah jadi % dan em*/
+	font-weight: normal; /*normal bisa diubah jadi lighter, 100-900, bold dan bolder*/
+	font-variant: small-caps; /*small caps bisa di ubah normal*/
+	font-style: oblique; /*oblique bisa diubah jadi normal dan italic*/
+}
+
+/*Cara lebih singkat dengan menjadi 1 bari*/
+h2{
+	font:arial normal bold 30px/20px helvetica, arial, sans-serif;
+}
+
+/*line-height untuk memberikan space untuk setiap baris paragraf*/
+p{
+	font-family: georgia, serif;
+	line-height: 10px;
+}
