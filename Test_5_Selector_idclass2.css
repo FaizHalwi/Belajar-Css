@@ -1,0 +1,28 @@
+body{
+  font-family: arial;
+}
+
+/*h1, h2 yaitu tanda koma di baca dan, tanda koma bergunan untuk memberikan warna atau lainnya dengan lebih simpel*/
+h1, h2{
+  color: green;
+}
+
+/*ul li a yaitu tanda space setiap element digunakan unutk memberikan warna atau lainnya untuk elemet list aja*/
+ul li a{
+  color: red;
+}
+
+ol li a{
+  color: yellow;
+}
+
+/*#oren yaitu tanda # itu id, oren nama id */
+#oren{
+  color: orange;
+}
+
+/*.tebalbiru yaitu tanda . itu adalah class, dan tebalbiru itu adalah nama class*/
+.tebalbiru{
+  color: blue;
+  font-weight: bold;
+}

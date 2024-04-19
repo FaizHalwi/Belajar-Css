@@ -1,0 +1,10 @@
+/*background-color untuk kasih warna ke background*/
+/*background-image untuk kasih gambar ke background*/
+/*background-repeat untuk meletakkan gambar ke titik x dan y*/
+/*background-position untuk mengatur posisi gambar*/
+body{
+	background-color: lightblue;
+	background-image: url(Gambar/Gradiendiri.jpeg);
+	background-repeat: repeat; /*no-repeat bisa di ubah repeat, repeat-x dan repeat-y*/
+	background-position: top center; /*top center bisa di ubah ke "Lihat di catatan binder"*/
+}

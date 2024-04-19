@@ -1,0 +1,21 @@
+h1{
+  font-size: 150px;
+   color: green;  /*green bisa di ubah dengan angka hexawarna dan rgb*/
+   text-decoration: underline;  /*underline bisa di ganti dengan none, overline dan line-through*/
+}
+
+p{
+   text-align: center;   /*center bisa diganti left right dan justify*/
+   text-indent: 100px;  /*untuk memberi jarak di awal paragraf*/
+  text-transform : capitalize; 
+}
+
+a{
+   text-decoration: none;  /*none bisa diganti di ganti dengan underline, overline dan line-through*/
+}
+
+h6{
+   word-spacing: 5px;  /*mengatur antar kalimat*/
+   letter-spacing: 5px;  /*mengatur antar huruf*/
+}
+
