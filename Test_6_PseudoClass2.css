@@ -1,0 +1,37 @@
+/*elemen link untuk memberi warna pada link*/
+.Hello:link{
+  color: red;
+}
+
+/*elemen hover untuk memberi element pada link, element yang di berikan akan aktif ketika kusor diatas link*/
+.Hello:hover{
+  color: green;
+  font-size:20px;
+  font-family:arial;
+}
+
+/*element active untuk memberi model font ke link, font akan aktif ketika kusor diatas link*/
+.Hello:active{
+  font-style:italic;
+}
+
+/*element visited untuk memberi warna ke link, warna akan aktif ketika link tersebut sudah dikunjungi*/
+.Hello:visited{
+  color:yellow;
+}
+
+/*elemen nth-child untuk memberi warna ke item salah satu li yaitu a*/
+/*cara baca "li:nth-cild(even) a" yaitu tolong beri warna pada salah satu item li dengan bilangan ganjil bagian a*/
+li:nth-child(even) a{ /*nth-child bisa di ganti : first-child, last-child dan even bisa di ganti odd, angka atau bilangan (2n),(2n+1
+) (2n-1)*/
+  color: red;
+}
+
+li:nth-child(even) a:hover{
+  color: grey;
+}
+
+/*element first-of-type salah satu pseudo class yang bisa digunakan pada paragraf*/
+p:first-of-type{ /*fisrt-of-type bisa diganti dengan last-of-type*/
+  color: green;
+}
